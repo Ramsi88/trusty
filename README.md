@@ -1,11 +1,17 @@
 # Trusty Multi-Signature Factory
+
+# TODO
+- [ ] Serialize delegate call data
+- [ ] Check & Manage multiple Network
+- [ ] Integrate ERC20-Token & ERC721-1155 logic 
+
 ## Author: 0xrms
 
 *Trusty* is a product/service directed towards the individual or the business…
 
 Trusty is on the Goerli TestNet network and allows you to create and manage an infinite number of 2/3 or 3/3 multi-signature smart-contracts/wallets, but it is possible to create variants with specifications on request as its modularity and scalability make it a versatile and powerful tool for different applications.
 
-For the single individual, if you are afraid of a single private key, you can use up to 2 more for the management of a single wallet with double if not triple security
+For the single individual, if you are afraid of a single private key, you can use up to 2 more for the management of a single wallet with double or even triple security
 
 It can be a mixer of TXs and a way to "diversify" funds (traceable by the expert)…
 If desired, the possibility of managing any ERC20 Token can be added.
