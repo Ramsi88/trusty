@@ -1,7 +1,7 @@
 # Trusty Multi-Signature Factory
 
 # TODO
-- [ ] Serialize delegate call data
+- [X] Serialize delegate call data
 - [ ] Check & Manage multiple Network
 - [ ] Integrate ERC20-Token & ERC721-1155 logic 
 
@@ -13,16 +13,16 @@ Trusty is on the Goerli TestNet network and allows you to create and manage an i
 
 For the single individual, if you are afraid of a single private key, you can use up to 2 more for the management of a single wallet with double or even triple security
 
-It can be a mixer of TXs and a way to "diversify" funds (traceable by the expert)…
-If desired, the possibility of managing any ERC20 Token can be added.
+It can be a manager of TXs and a way to "diversify" funds (always traceable by the experts)…
+Is it possible to manage any ERC20 compatible Token.
 
-It can be used to build a family safe or use several small wallets to divide up savings or expenses.
+It can be used to build a safe vault or use several small abstract account and wallets to divide up savings or expenses.
 
-The trustyFactory (contract generator and deployer/trusty) can be sold as a bundle to companies to manage internal employee payments or interaction with other companies in the market that have contracts.
+The trustyFactory (contract generator and deployer of single trusty multi-signature contract) along with the dApp can be used as a bundle for companies to manage internal employees payments or interactions with other companies in the market that have smart contracts.
 
-It is rather modular and adaptable therefore, in addition to acting as our service that delivers and deploys Trusty for customers upon payment of a commission, it can also be "installed" for internal services or scaled for any use-cases where management/ multiple validation/mediation
+It is rather modular and adaptable therefore, in addition to acting as a service that delivers and deploys Trusty vaults for customers upon payment of a commission, it can also be "installed" for internal services or scaled for any use-case where management/multiple validation/mediation is needed.
 
-A single Trusty can be a corporate vault managed by a few directors or delegates, or several Trustys can act as operating capital for various departments each with its own fund but with the common supervision of a private key or two of the CEOs or managing directors or, if desired, can also act for the internal payment of employees.
+A single Trusty can be a corporate vault managed by a few directors or actors delegated to, or several Trustys can act as tools for operating capital for various departments each with its own fund but with the common supervision of a private key or two of the CEOs or managing directors or, if desired, can also act for the internal payment of employees.
 
 It can be used as a deposit fund or as an interaction tool for DeFi, or simply as an NFT or Token management wallet, a bit like a mini-DAO between individuals or several Trusties together.
 
@@ -30,7 +30,7 @@ The trusty can also be seen as a mini governance/DAO that uses funds to interact
 
 All the big institutions that have large amounts of capital in crypto all use multi-signature wallets on purpose because they are a high level of security.
 
-It goes without saying that it could be adapted very well in the mediation of the use-cases that we have identified for the real estate sector, crowdfunding, etc…
+It goes without saying that it could be adapted very well in the mediation of the use-cases identified in the real estate sector, logistic, crowdfunding, etc…
 
 - [You access trusty.app and enter the addresses or ENSs of the other two owners/validators with which to create a Trusty multi-signature wallet and select the minimum number of confirmations that Trusty will need to spend the funds and execute transactions depending on configuration needed.]
 
