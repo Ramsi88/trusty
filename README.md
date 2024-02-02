@@ -1,12 +1,39 @@
 # Trusty Multi-Signature Factory
 
-# TODO
+## LICENSE: MIT
+
+## Author: Ramzi Bougammoura
+
+# INSTALLATION and ENVIRONMENT SETUP:
+
+```
+# Clone recursively with each submodule
+git clone --recursive https://github.com/Ramsi88/trusty.git
+
+# Clone the parent and then updates the submodules
+git clone https://github.com/Ramsi88/trusty.git
+git submodule update --init --recursive
+
+cd trusty
+cd trusty-contracts
+npm i
+touch .env
+npm run start # local deploy
+npm run deploy # network deploy
+cd ..
+cd trusty-app
+npm i
+touch .env
+npm run dev/start/build
+
+```
+
+# FEATURES/TODOs:
 - [X] Serialize delegate call data
-- [ ] Check & Manage multiple Network
-- [ ] Integrate ERC20-Token & ERC721-1155 logic 
+- [X] Check & Manage multiple Network
+- [X] Integrate ERC20-Token & ERC721-1155 logic 
 
-## Author: 0xrms
-
+# ABOUT:
 *Trusty* is a product/service directed towards the individual or the business…
 
 Trusty is on the Goerli TestNet network and allows you to create and manage an infinite number of 2/3 or 3/3 multi-signature smart-contracts/wallets, but it is possible to create variants with specifications on request as its modularity and scalability make it a versatile and powerful tool for different applications.
