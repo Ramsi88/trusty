@@ -1,6 +1,8 @@
 [submodule "trusty-contracts"]
 	path = trusty-contracts
 	url = https://github.com/Ramsi88/trusty-contracts.git
+	branch = main
 [submodule "trusty-app"]
 	path = trusty-app
 	url = https://github.com/Ramsi88/trusty-app.git
+	branch = main
